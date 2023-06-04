@@ -1,5 +1,6 @@
 import matplotlib.pyplot as mtp
 import numpy as np
+import pandas as pd
 from sklearn.cluster import KMeans
 df2 = pd.read_csv("Mall_Customers.csv")
 x = df2.iloc[:,[3, 4]].values
