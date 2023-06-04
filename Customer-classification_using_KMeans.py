@@ -1,5 +1,6 @@
 import matplotlib.pyplot as mtp
 import numpy as np
+import pandas as pd
 from sklearn.cluster import KMeans
 from yellowbrick.cluster import KElbowVisualizer
 df2 = pd.read_csv("Mall_Customers.csv")
